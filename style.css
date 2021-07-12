@@ -36,13 +36,13 @@ div#banner {
 }
 
 div#banner_name {
-    font-family: 'black_jackregular', serif;
+    font-family: 'black_jackregular', sans-serif;
     font-size: 3em;
     text-align: center;
 }    
 
 div#banner_characteristics {
-    font-family: 'quicksandlight', serif;
+    font-family: 'quicksandlight', sans-serif;
     text-align: center;
 }
 
@@ -63,22 +63,22 @@ div#fun {
 }
 
 h1 {
-    font-family: 'mathleteskinny', serif;
+    font-family: 'mathleteskinny', sans-serif;
 }
 
 h3 {
-    font-family: 'black_jackregular', serif;
+    font-family: 'black_jackregular', sans-serif;
 }
 
 h4 {
-    font-family: 'mathleteskinny', serif;
+    font-family: 'mathleteskinny', sans-serif;
     font-size: 2em;
 }
 
 h5 {
-    font-family: 'quicksandlight', serif;
+    font-family: 'quicksandlight', sans-serif;
 }
 
  p {
-     font-family: 'quicksandlight', serif;
+     font-family: 'quicksandlight', sans-serif;
  }
