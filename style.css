@@ -1,3 +1,84 @@
-body {
-    background: antiquewhite;
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('fonts/FontKit/quicksand-light-webfont.woff2') format('woff2'),
+         url('fonts/FontKit/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('fonts/FontKit/blackjack-webfont.woff2') format('woff2'),
+         url('fonts/FontKit/blackjack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mathleteskinny';
+    src: url('fonts/FontKit/mathlete-skinny-webfont.woff2') format('woff2'),
+         url('fonts/FontKit/mathlete-skinny-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    background: #f5efeb;
+}
+
+div#banner {
+    background: #b4b7a1;
+    padding: 10px;
+}
+
+div#banner_name {
+    font-family: 'black_jackregular', serif;
+    font-size: 3em;
+    text-align: center;
+}    
+
+div#banner_characteristics {
+    font-family: 'quicksandlight', serif;
+    text-align: center;
+}
+
+div#intro {
+  
+}
+
+div#mantra {
+    background: #ce9882;
+}
+
+div#my_story {
+    background: white;
+}
+
+div#fun {
+    background: #cea9a7;
+}
+
+h1 {
+    font-family: 'mathleteskinny', serif;
+}
+
+h3 {
+    font-family: 'black_jackregular', serif;
+}
+
+h4 {
+    font-family: 'mathleteskinny', serif;
+    font-size: 2em;
+}
+
+h5 {
+    font-family: 'quicksandlight', serif;
+}
+
+ p {
+     font-family: 'quicksandlight', serif;
+ }
