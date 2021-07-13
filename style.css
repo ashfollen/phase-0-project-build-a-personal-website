@@ -48,19 +48,46 @@ div#banner_characteristics {
 }
 
 div#intro {
-  vertical-align: middle;
+  background: white;
+  width: 90%;
+  margin-left: 5%;
+  padding: 10px;
 }
 
 div#mantra {
     background: #ce9882;
+    padding: 10px;
+    margin-left: 5%;
+    width: 90%;
+    display: block;
 }
 
 div#my_story {
     background: white;
+    width: 90%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 5%;
+
 }
 
 div#fun {
     background: #cea9a7;
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+    height: auto;
+}
+
+div#hobbies {
+    background: white;
+    padding: 1px;
+    text-indent: 1em;
+    
+}
+
+div#macrame {
+    margin-top: 10px;
 }
 
 h1 {
@@ -69,19 +96,27 @@ h1 {
 
 h3 {
     font-family: 'black_jackregular', sans-serif;
+    padding-left: 20%;
+    font-size: 1.5em;
+    text-indent: 2em;
 }
 
 h4 {
     font-family: 'mathleteskinny', sans-serif;
     font-size: 2em;
+    padding-left: 10px;
 }
 
 h5 {
-    font-family: 'quicksandlight', sans-serif;
+    font-family: 'mathleteskinny', sans-serif;
+    font-size: 2em;
 }
 
  p {
      font-family: 'quicksandlight', sans-serif;
+     padding-top: 3px;
+     padding-left: 10px;
+     text-indent: 1em;
  }
 
  img#me {
@@ -89,5 +124,21 @@ h5 {
      vertical-align: middle;
      border-radius: 50%;
      float: left;
+     margin-left: 2%;
      
+ }
+
+ img.calligraphy {
+     float: left;
+     width: 50%;
+     
+ }
+  
+ img#macrame {
+     width: 500px;
+ }
+
+ img.outdoor_pursuits {
+     width: 33%;
+     float: left;
  }
