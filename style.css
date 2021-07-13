@@ -28,6 +28,7 @@
 
 body {
     background: #f5efeb;
+    margin: 0;
 }
 
 div#banner {
@@ -47,7 +48,7 @@ div#banner_characteristics {
 }
 
 div#intro {
-  
+  vertical-align: middle;
 }
 
 div#mantra {
@@ -81,4 +82,12 @@ h5 {
 
  p {
      font-family: 'quicksandlight', sans-serif;
+ }
+
+ img#me {
+     width: 200px;
+     vertical-align: middle;
+     border-radius: 50%;
+     float: left;
+     
  }
